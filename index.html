@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Life Solutions Services LLC</title>
+<meta name="description" content="Life Solutions Services LLC: janitorial, wholesale, catering, retail goods, and events from one dependable team.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Life Solutions Services LLC, home">
+      <span class="logo" role="img" aria-label="Life Solutions Services logo"></span>
+      <span>Life Solutions Services<small>LLC</small></span>
+    </a>
+    <nav aria-label="Main"><ul>
+      <li><a href="#divisions">Divisions</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="btn btn-gold">Get a quote</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>One team for your space, your supplies, and your events.</h1>
+        <p class="lead">Life Solutions Services LLC brings janitorial, wholesale, catering, retail goods, and event services together, so you have one place to call and one standard of work.</p>
+        <div class="cta">
+          <a class="btn btn-gold" href="#divisions">See what we offer</a>
+          <a class="btn btn-line" href="#contact">Request a quote</a>
+        </div>
+      </div>
+      <div class="logo" role="img" aria-label="Life Solutions Services logo with city skyline"></div>
+    </div>
+  </div>
+
+  <section id="divisions">
+    <div class="wrap">
+      <div class="intro">
+        <h2>Choose a division</h2>
+        <p>Five services, each with its own focus. Pick the one you need and we’ll take it from there.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Divisions"></div>
+      <div id="panels"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="intro"><h2>Why work with one company for it all</h2></div>
+      <div class="points">
+        <div><h3>One point of contact</h3><p>Whether you need a cleaning crew and a catered lunch, or bulk supplies and an event, you deal with the same team.</p></div>
+        <div><h3>Built around your needs</h3><p>Recurring or one-time, small or large. We scope each job to fit your space, schedule, and budget.</p></div>
+        <div><h3>Dependable follow-through</h3><p>We show up when we say we will, communicate clearly, and stand behind the work we deliver.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact">
+      <div>
+        <h2>Tell us what you need</h2>
+        <p>Send a few details and we’ll reply with next steps and a quote. No obligation.</p>
+        <dl>
+          <dt>Email</dt><dd><a href="mailto:contact@lifesolutionsservicesllc.com">contact@lifesolutionsservicesllc.com</a></dd>
+          <dt>Phone</dt><dd><a href="tel:+13018361410">301-836-1410</a></dd>
+          <dt>Service area</dt><dd>Maryland and the surrounding region</dd>
+        </dl>
+      </div>
+      <form id="quote">
+        <div class="two">
+          <label>Name<input name="name" required autocomplete="name"></label>
+          <label>Email<input name="email" type="email" required autocomplete="email"></label>
+        </div>
+        <div class="two">
+          <label>Phone<input name="phone" type="tel" autocomplete="tel"></label>
+          <label>Division<select name="division" id="division"></select></label>
+        </div>
+        <label>How can we help?<textarea name="message" rows="5" required></textarea></label>
+        <button class="btn" type="submit">Send request</button>
+        <p id="note" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Life Solutions Services LLC. All rights reserved.</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
